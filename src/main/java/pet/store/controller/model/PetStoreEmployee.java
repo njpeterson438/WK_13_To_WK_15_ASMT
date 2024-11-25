@@ -10,6 +10,7 @@ public class PetStoreEmployee {
     private Long employeeId;
     private String employeeName;
 
+    // Constructor to initialize PetStoreEmployee from an Employee entity
     public PetStoreEmployee(Employee employee) {
         this.employeeId = employee.getEmployeeId();
         this.employeeName = employee.getEmployeeName();
